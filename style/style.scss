@@ -1,0 +1,32 @@
+// Layout
+$mobile : 375px;
+$desktop : 1440px;
+
+// Primary colors
+$veryDarkBlue : hsl(233, 47%, 7%);
+$darkDesaturatedBlue : hsl(244, 38%, 16%);
+$softViolet : hsl(277, 64%, 61%);
+
+// Neutral colors
+$white : hsl(0, 0%, 100%);
+$slightlyTransparentWhite : hsla(0, 0%, 100%, 0.75);
+$slightlyTransparentWhite : hsla(0, 0%, 100%, 0.6);
+
+// Typography
+
+$fontSize : 15px;
+$fontInter : 'Inter';
+$fontInterWeight : 400, 700;
+$fontLexendDeca : 'Lexend Deca';
+$fontLexendDecaWeight : 400;
+
+
+:root {
+  font-size: $fontSize;
+}
+
+body {
+  background-color: $veryDarkBlue;
+}
+
+
