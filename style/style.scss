@@ -23,10 +23,58 @@ $fontLexendDecaWeight : 400;
 
 :root {
   font-size: $fontSize;
+  font-family: $fontInter;
 }
 
 body {
   background-color: $veryDarkBlue;
+}
+
+.mainCard {
+  display: flex;
+  background-color: $darkDesaturatedBlue;
+  position: relative;
+  justify-content: center;
+  height: 600px;
+  margin: 120px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.information {
+  justify-content: center;
+  align-items: center;
+  & h1 {
+    color: $white;
+    & span {
+      color: $softViolet;
+    }
+  }
+  & p {
+    color: $slightlyTransparentWhite;
+  }
+  & h2 {
+    color: $white;
+  }
+  & h3{
+    color: $slightlyTransparentWhite;
+    text-transform: uppercase;
+  }
+}
+
+.photo {
+
+}
+
+
+
+.attribution {
+  color: $white;
+  text-align: center;
+  & a{
+    text-decoration: none;
+    color: $white;
+  }
 }
 
 
